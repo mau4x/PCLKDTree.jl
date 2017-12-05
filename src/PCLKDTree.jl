@@ -32,7 +32,7 @@ cxx"""
 
 import PCLCommon: setInputCloud
 
-abstract KdTree
+abstract type KdTree end
 
 @defpcltype KdTreeFLANN{T} <: KdTree "pcl::KdTreeFLANN"
 @defptrconstructor KdTreeFLANN{T}() "pcl::KdTreeFLANN"
